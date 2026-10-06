@@ -1,0 +1,21 @@
+{
+  "name": "greek-index-bounty",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A source-grounded Greek library and index, built one research bounty at a time.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/build.mjs --dry --verbose",
+    "quotes": "node scripts/quotes.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "export": "node scripts/export.mjs",
+    "validate": "node scripts/validate.mjs",
+    "submission": "node scripts/submission.mjs",
+    "pr:body": "node scripts/submission.mjs body"
+  }
+}

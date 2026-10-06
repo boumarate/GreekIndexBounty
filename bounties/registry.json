@@ -1,0 +1,428 @@
+{
+  "schemaVersion": 1,
+  "repository": "https://github.com/mazebench-temp/GreekIndexBounty",
+  "source": {
+    "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/ceeb60d9e9e0ebefd0f22b536e03a67084d2452a/data/tlg0012/tlg001/tlg0012.tlg001.perseus-grc2.xml",
+    "revision": "ceeb60d9e9e0ebefd0f22b536e03a67084d2452a",
+    "note": "Verse IDs only; no source text is shipped. Omitted verse numbers are gaps in this pinned digital file, not a claim about textual authenticity."
+  },
+  "units": [
+    {
+      "id": "iliad-01",
+      "author": "homer",
+      "work": "homer.iliad",
+      "unit": "1",
+      "label": "Iliad \u00b7 Book 1",
+      "citationScheme": "book.line",
+      "expected": {
+        "from": 1,
+        "to": 611,
+        "omitted": []
+      },
+      "rewardSats": 100,
+      "status": "open",
+      "funding": "pending",
+      "issue": "https://github.com/mazebench-temp/GreekIndexBounty/issues/1"
+    },
+    {
+      "id": "iliad-02",
+      "author": "homer",
+      "work": "homer.iliad",
+      "unit": "2",
+      "label": "Iliad \u00b7 Book 2",
+      "citationScheme": "book.line",
+      "expected": {
+        "from": 1,
+        "to": 877,
+        "omitted": []
+      },
+      "rewardSats": 100,
+      "status": "open",
+      "funding": "pending",
+      "issue": "https://github.com/mazebench-temp/GreekIndexBounty/issues/2"
+    },
+    {
+      "id": "iliad-03",
+      "author": "homer",
+      "work": "homer.iliad",
+      "unit": "3",
+      "label": "Iliad \u00b7 Book 3",
+      "citationScheme": "book.line",
+      "expected": {
+        "from": 1,
+        "to": 461,
+        "omitted": []
+      },
+      "rewardSats": 100,
+      "status": "open",
+      "funding": "pending",
+      "issue": "https://github.com/mazebench-temp/GreekIndexBounty/issues/3"
+    },
+    {
+      "id": "iliad-04",
+      "author": "homer",
+      "work": "homer.iliad",
+      "unit": "4",
+      "label": "Iliad \u00b7 Book 4",
+      "citationScheme": "book.line",
+      "expected": {
+        "from": 1,
+        "to": 544,
+        "omitted": []
+      },
+      "rewardSats": 100,
+      "status": "open",
+      "funding": "pending",
+      "issue": "https://github.com/mazebench-temp/GreekIndexBounty/issues/4"
+    },
+    {
+      "id": "iliad-05",
+      "author": "homer",
+      "work": "homer.iliad",
+      "unit": "5",
+      "label": "Iliad \u00b7 Book 5",
+      "citationScheme": "book.line",
+      "expected": {
+        "from": 1,
+        "to": 909,
+        "omitted": []
+      },
+      "rewardSats": 100,
+      "status": "open",
+      "funding": "pending",
+      "issue": "https://github.com/mazebench-temp/GreekIndexBounty/issues/5"
+    },
+    {
+      "id": "iliad-06",
+      "author": "homer",
+      "work": "homer.iliad",
+      "unit": "6",
+      "label": "Iliad \u00b7 Book 6",
+      "citationScheme": "book.line",
+      "expected": {
+        "from": 1,
+        "to": 529,
+        "omitted": []
+      },
+      "rewardSats": 100,
+      "status": "open",
+      "funding": "pending",
+      "issue": "https://github.com/mazebench-temp/GreekIndexBounty/issues/6"
+    },
+    {
+      "id": "iliad-07",
+      "author": "homer",
+      "work": "homer.iliad",
+      "unit": "7",
+      "label": "Iliad \u00b7 Book 7",
+      "citationScheme": "book.line",
+      "expected": {
+        "from": 1,
+        "to": 482,
+        "omitted": []
+      },
+      "rewardSats": 100,
+      "status": "open",
+      "funding": "pending",
+      "issue": "https://github.com/mazebench-temp/GreekIndexBounty/issues/7"
+    },
+    {
+      "id": "iliad-08",
+      "author": "homer",
+      "work": "homer.iliad",
+      "unit": "8",
+      "label": "Iliad \u00b7 Book 8",
+      "citationScheme": "book.line",
+      "expected": {
+        "from": 1,
+        "to": 565,
+        "omitted": []
+      },
+      "rewardSats": 100,
+      "status": "open",
+      "funding": "pending",
+      "issue": "https://github.com/mazebench-temp/GreekIndexBounty/issues/8"
+    },
+    {
+      "id": "iliad-09",
+      "author": "homer",
+      "work": "homer.iliad",
+      "unit": "9",
+      "label": "Iliad \u00b7 Book 9",
+      "citationScheme": "book.line",
+      "expected": {
+        "from": 1,
+        "to": 713,
+        "omitted": [
+          458,
+          459,
+          460,
+          461
+        ]
+      },
+      "rewardSats": 100,
+      "status": "open",
+      "funding": "pending",
+      "issue": "https://github.com/mazebench-temp/GreekIndexBounty/issues/9"
+    },
+    {
+      "id": "iliad-10",
+      "author": "homer",
+      "work": "homer.iliad",
+      "unit": "10",
+      "label": "Iliad \u00b7 Book 10",
+      "citationScheme": "book.line",
+      "expected": {
+        "from": 1,
+        "to": 579,
+        "omitted": []
+      },
+      "rewardSats": 100,
+      "status": "open",
+      "funding": "pending",
+      "issue": "https://github.com/mazebench-temp/GreekIndexBounty/issues/10"
+    },
+    {
+      "id": "iliad-11",
+      "author": "homer",
+      "work": "homer.iliad",
+      "unit": "11",
+      "label": "Iliad \u00b7 Book 11",
+      "citationScheme": "book.line",
+      "expected": {
+        "from": 1,
+        "to": 848,
+        "omitted": [
+          543
+        ]
+      },
+      "rewardSats": 100,
+      "status": "open",
+      "funding": "pending",
+      "issue": "https://github.com/mazebench-temp/GreekIndexBounty/issues/11"
+    },
+    {
+      "id": "iliad-12",
+      "author": "homer",
+      "work": "homer.iliad",
+      "unit": "12",
+      "label": "Iliad \u00b7 Book 12",
+      "citationScheme": "book.line",
+      "expected": {
+        "from": 1,
+        "to": 471,
+        "omitted": []
+      },
+      "rewardSats": 100,
+      "status": "open",
+      "funding": "pending",
+      "issue": "https://github.com/mazebench-temp/GreekIndexBounty/issues/12"
+    },
+    {
+      "id": "iliad-13",
+      "author": "homer",
+      "work": "homer.iliad",
+      "unit": "13",
+      "label": "Iliad \u00b7 Book 13",
+      "citationScheme": "book.line",
+      "expected": {
+        "from": 1,
+        "to": 837,
+        "omitted": []
+      },
+      "rewardSats": 100,
+      "status": "open",
+      "funding": "pending",
+      "issue": "https://github.com/mazebench-temp/GreekIndexBounty/issues/13"
+    },
+    {
+      "id": "iliad-14",
+      "author": "homer",
+      "work": "homer.iliad",
+      "unit": "14",
+      "label": "Iliad \u00b7 Book 14",
+      "citationScheme": "book.line",
+      "expected": {
+        "from": 1,
+        "to": 522,
+        "omitted": [
+          269
+        ]
+      },
+      "rewardSats": 100,
+      "status": "open",
+      "funding": "pending",
+      "issue": "https://github.com/mazebench-temp/GreekIndexBounty/issues/14"
+    },
+    {
+      "id": "iliad-15",
+      "author": "homer",
+      "work": "homer.iliad",
+      "unit": "15",
+      "label": "Iliad \u00b7 Book 15",
+      "citationScheme": "book.line",
+      "expected": {
+        "from": 1,
+        "to": 746,
+        "omitted": []
+      },
+      "rewardSats": 100,
+      "status": "open",
+      "funding": "pending",
+      "issue": "https://github.com/mazebench-temp/GreekIndexBounty/issues/15"
+    },
+    {
+      "id": "iliad-16",
+      "author": "homer",
+      "work": "homer.iliad",
+      "unit": "16",
+      "label": "Iliad \u00b7 Book 16",
+      "citationScheme": "book.line",
+      "expected": {
+        "from": 1,
+        "to": 867,
+        "omitted": []
+      },
+      "rewardSats": 100,
+      "status": "open",
+      "funding": "pending",
+      "issue": "https://github.com/mazebench-temp/GreekIndexBounty/issues/16"
+    },
+    {
+      "id": "iliad-17",
+      "author": "homer",
+      "work": "homer.iliad",
+      "unit": "17",
+      "label": "Iliad \u00b7 Book 17",
+      "citationScheme": "book.line",
+      "expected": {
+        "from": 1,
+        "to": 761,
+        "omitted": []
+      },
+      "rewardSats": 100,
+      "status": "open",
+      "funding": "pending",
+      "issue": "https://github.com/mazebench-temp/GreekIndexBounty/issues/17"
+    },
+    {
+      "id": "iliad-18",
+      "author": "homer",
+      "work": "homer.iliad",
+      "unit": "18",
+      "label": "Iliad \u00b7 Book 18",
+      "citationScheme": "book.line",
+      "expected": {
+        "from": 1,
+        "to": 617,
+        "omitted": []
+      },
+      "rewardSats": 100,
+      "status": "open",
+      "funding": "pending",
+      "issue": "https://github.com/mazebench-temp/GreekIndexBounty/issues/18"
+    },
+    {
+      "id": "iliad-19",
+      "author": "homer",
+      "work": "homer.iliad",
+      "unit": "19",
+      "label": "Iliad \u00b7 Book 19",
+      "citationScheme": "book.line",
+      "expected": {
+        "from": 1,
+        "to": 424,
+        "omitted": []
+      },
+      "rewardSats": 100,
+      "status": "open",
+      "funding": "pending",
+      "issue": "https://github.com/mazebench-temp/GreekIndexBounty/issues/19"
+    },
+    {
+      "id": "iliad-20",
+      "author": "homer",
+      "work": "homer.iliad",
+      "unit": "20",
+      "label": "Iliad \u00b7 Book 20",
+      "citationScheme": "book.line",
+      "expected": {
+        "from": 1,
+        "to": 503,
+        "omitted": []
+      },
+      "rewardSats": 100,
+      "status": "open",
+      "funding": "pending",
+      "issue": "https://github.com/mazebench-temp/GreekIndexBounty/issues/20"
+    },
+    {
+      "id": "iliad-21",
+      "author": "homer",
+      "work": "homer.iliad",
+      "unit": "21",
+      "label": "Iliad \u00b7 Book 21",
+      "citationScheme": "book.line",
+      "expected": {
+        "from": 1,
+        "to": 611,
+        "omitted": []
+      },
+      "rewardSats": 100,
+      "status": "open",
+      "funding": "pending",
+      "issue": "https://github.com/mazebench-temp/GreekIndexBounty/issues/21"
+    },
+    {
+      "id": "iliad-22",
+      "author": "homer",
+      "work": "homer.iliad",
+      "unit": "22",
+      "label": "Iliad \u00b7 Book 22",
+      "citationScheme": "book.line",
+      "expected": {
+        "from": 1,
+        "to": 515,
+        "omitted": []
+      },
+      "rewardSats": 100,
+      "status": "open",
+      "funding": "pending",
+      "issue": "https://github.com/mazebench-temp/GreekIndexBounty/issues/22"
+    },
+    {
+      "id": "iliad-23",
+      "author": "homer",
+      "work": "homer.iliad",
+      "unit": "23",
+      "label": "Iliad \u00b7 Book 23",
+      "citationScheme": "book.line",
+      "expected": {
+        "from": 1,
+        "to": 897,
+        "omitted": []
+      },
+      "rewardSats": 100,
+      "status": "open",
+      "funding": "pending",
+      "issue": "https://github.com/mazebench-temp/GreekIndexBounty/issues/23"
+    },
+    {
+      "id": "iliad-24",
+      "author": "homer",
+      "work": "homer.iliad",
+      "unit": "24",
+      "label": "Iliad \u00b7 Book 24",
+      "citationScheme": "book.line",
+      "expected": {
+        "from": 1,
+        "to": 804,
+        "omitted": []
+      },
+      "rewardSats": 100,
+      "status": "open",
+      "funding": "pending",
+      "issue": "https://github.com/mazebench-temp/GreekIndexBounty/issues/24"
+    }
+  ]
+}

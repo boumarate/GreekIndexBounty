@@ -1,0 +1,11 @@
+# Provenance
+
+GreekIndexBounty was bootstrapped by OpenAI Codex on 2026-10-06 at the repository owner’s request. This is infrastructure setup, **not an Opus/Fable research contribution**, and earns no bounty. No book study, translation, lexical dataset, scholarly article, or agent runtime measurement is claimed for this bootstrap.
+
+The reader, build libraries, lexical tools, concordance, quote UUID conventions, article format, and initial taxonomy derive from the owner’s [Pinakes repository](https://github.com/mazebench-temp/Pinakes), inspected at commit `1fbdffa86c1db12b4acdfb61412cb4be76aec9a5`. Local documentation and representative content were studied to understand the workflow. The Pinakes checkout was not modified. Its completed books, translations, lexica, article bodies, scoped notes, quote records, generated outputs, private agent settings, and Git history were not imported.
+
+Retained seed data: article kinds, tags/facets, mythic periods/modes, Homer author metadata, and an empty Iliad work descriptor. No inherited statement that a translation is already available remains in the work credits. The visual design, empty states, bounty board, provenance/reporting contract, scaffold, validation, indirect-witness support, and repository workflows were added for this project.
+
+The base Iliad verse-ID inventory was checked against [Perseus canonical-greekLit](https://github.com/PerseusDL/canonical-greekLit/blob/ceeb60d9e9e0ebefd0f22b536e03a67084d2452a/data/tlg0012/tlg001/tlg0012.tlg001.perseus-grc2.xml), revision `ceeb60d9e9e0ebefd0f22b536e03a67084d2452a`. Only book counts, verse endpoints, and missing IDs were retained. Future contributors must record edition-specific attribution and rights for all imported text and other source material. Ancient quotations and other indirect witnesses are encouraged with precise, visible provenance.
+
+Subsequent PRs must comply with the authorship policy in `bounties/policy.json`. Model names are sponsor-defined eligibility labels, not a guarantee that a named model is available. Do not use the initial Codex setup as permission to misattribute future contributions. No repository-wide reuse license has been added during this bootstrap.

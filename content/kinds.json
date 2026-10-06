@@ -1,0 +1,20 @@
+[
+  {"id": "god", "label": "Gods & Powers", "one": "God", "icon": "sparkles", "hue": 42, "names": true},
+  {"id": "person", "label": "Heroes & Mortals", "one": "Person", "icon": "person", "hue": 212, "names": true},
+  {"id": "people", "label": "Peoples", "one": "People", "icon": "people", "hue": 190, "names": true},
+  {"id": "creature", "label": "Creatures & Monsters", "one": "Creature", "icon": "creature", "hue": 8, "names": true},
+  {"id": "place", "label": "Places", "one": "Place", "icon": "map", "hue": 140, "names": true},
+  {"id": "animal", "label": "Animals", "one": "Animal", "icon": "paw", "hue": 28},
+  {"id": "object", "label": "Objects", "one": "Object", "icon": "cube", "hue": 262},
+  {"id": "ritual", "label": "Rituals & Customs", "one": "Custom", "icon": "flame", "hue": 18},
+  {"id": "term", "label": "Greek Words", "one": "Word", "icon": "textformat", "hue": 290},
+  {"id": "theme", "label": "Themes & Ideas", "one": "Theme", "icon": "lightbulb", "hue": 52},
+  {"id": "epithet", "label": "Epithets", "one": "Epithet", "icon": "badge", "hue": 318},
+  {"id": "formula", "label": "Formulas & Type-Scenes", "one": "Formula", "icon": "repeat", "hue": 330},
+  {"id": "simile", "label": "Similes", "one": "Simile", "icon": "wave", "hue": 176},
+  {"id": "saying", "label": "Sayings & Famous Lines", "one": "Saying", "icon": "quote", "hue": 340},
+  {"id": "story", "label": "Stories & Myths", "one": "Story", "icon": "scroll", "hue": 34},
+  {"id": "anecdote", "label": "Anecdotes & Reception", "one": "Anecdote", "icon": "bubble", "hue": 236},
+  {"id": "author", "label": "Authors & Artists", "one": "Author", "icon": "feather", "hue": 226},
+  {"id": "note", "label": "Textual Notes", "one": "Textual note", "icon": "doc", "hue": 0}
+]

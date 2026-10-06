@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "eligibleProvider": "Anthropic",
+  "eligibleModels": ["Opus 5.5", "Fable 5.5"],
+  "requiredAudits": ["translation", "lexicon", "index", "sources", "integration"],
+  "requiredSourceKinds": ["primary", "lexical", "scholarship"],
+  "researchBlockMaxLines": 25,
+  "note": "Model names are the sponsor's eligibility policy, not a claim of current model availability. Record the exact provider/runtime identifier and evidence; do not invent an identifier. All writing agents must qualify. Infrastructure PRs also need an eligible lead and provenance. The initial repository bootstrap is recorded separately in PROVENANCE.md."
+}

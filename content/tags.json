@@ -1,0 +1,862 @@
+{
+  "facets": [
+    {
+      "id": "divinity",
+      "label": "Divinity",
+      "summary": "Kinds and families of gods."
+    },
+    {
+      "id": "allegiance",
+      "label": "Peoples & Sides",
+      "summary": "Who belongs where in the war and beyond it."
+    },
+    {
+      "id": "role",
+      "label": "Roles",
+      "summary": "What people do: kings, priests, seers, heralds."
+    },
+    {
+      "id": "family",
+      "label": "Families",
+      "summary": "Houses and lineages."
+    },
+    {
+      "id": "geography",
+      "label": "Geography",
+      "summary": "Regions of the Homeric world, real and cosmic."
+    },
+    {
+      "id": "life",
+      "label": "Creatures & Things",
+      "summary": "Beasts, monsters, and the material world."
+    },
+    {
+      "id": "practice",
+      "label": "Ritual & Practice",
+      "summary": "What people do with gods and with each other."
+    },
+    {
+      "id": "idea",
+      "label": "Ideas",
+      "summary": "The values and concepts the poem turns on."
+    },
+    {
+      "id": "language",
+      "label": "Language & Style",
+      "summary": "How the poem is made."
+    },
+    {
+      "id": "narrative",
+      "label": "Narrative",
+      "summary": "How stories are told inside the poem."
+    },
+    {
+      "id": "reception",
+      "label": "Reception",
+      "summary": "What later readers, thinkers, and artists made of it."
+    }
+  ],
+  "tags": [
+    {
+      "id": "olympian",
+      "facet": "divinity",
+      "label": "Olympian",
+      "summary": "The gods who live on Olympus under Zeus."
+    },
+    {
+      "id": "titan",
+      "facet": "divinity",
+      "label": "Titan",
+      "summary": "The older generation of gods, children of Earth and Sky, overthrown by Zeus."
+    },
+    {
+      "id": "primordial",
+      "facet": "divinity",
+      "label": "Primordial",
+      "summary": "The first powers of the world."
+    },
+    {
+      "id": "sea-deity",
+      "facet": "divinity",
+      "label": "Sea deity",
+      "summary": "Gods of the salt sea."
+    },
+    {
+      "id": "nereid",
+      "facet": "divinity",
+      "parent": "sea-deity",
+      "label": "Nereid",
+      "summary": "Daughters of the Old Man of the Sea."
+    },
+    {
+      "id": "muse",
+      "facet": "divinity",
+      "label": "Muse",
+      "summary": "The goddesses of song."
+    },
+    {
+      "id": "chthonic",
+      "facet": "divinity",
+      "label": "Underworld",
+      "summary": "Powers below the earth."
+    },
+    {
+      "id": "personification",
+      "facet": "divinity",
+      "label": "Personification",
+      "summary": "Forces and states treated as divine persons."
+    },
+    {
+      "id": "child-of-zeus",
+      "facet": "divinity",
+      "label": "Child of Zeus",
+      "summary": "Gods and mortals fathered by Zeus."
+    },
+    {
+      "id": "demigod",
+      "facet": "divinity",
+      "label": "Son of a god",
+      "summary": "Mortals with a divine parent."
+    },
+    {
+      "id": "achaean",
+      "facet": "allegiance",
+      "label": "Achaean",
+      "summary": "The Greek army at Troy: Achaeans, Argives, Danaans."
+    },
+    {
+      "id": "myrmidon",
+      "facet": "allegiance",
+      "parent": "achaean",
+      "label": "Myrmidon",
+      "summary": "Achilles’ people, from Phthia."
+    },
+    {
+      "id": "pylian",
+      "facet": "allegiance",
+      "parent": "achaean",
+      "label": "Pylian",
+      "summary": "Nestor’s people."
+    },
+    {
+      "id": "argive",
+      "facet": "allegiance",
+      "parent": "achaean",
+      "label": "Argive",
+      "summary": "From Argos and the realm of Agamemnon."
+    },
+    {
+      "id": "trojan",
+      "facet": "allegiance",
+      "label": "Trojan",
+      "summary": "Troy, its royal house, and its allies."
+    },
+    {
+      "id": "troad-local",
+      "facet": "allegiance",
+      "parent": "trojan",
+      "label": "People of the Troad",
+      "summary": "Towns and sanctuaries around Troy."
+    },
+    {
+      "id": "lapith",
+      "facet": "allegiance",
+      "label": "Lapith",
+      "summary": "The heroes of Thessaly who fought the Centaurs."
+    },
+    {
+      "id": "athenian",
+      "facet": "allegiance",
+      "label": "Athenian",
+      "summary": "Of Athens."
+    },
+    {
+      "id": "thracian",
+      "facet": "allegiance",
+      "label": "Thracian",
+      "summary": "Peoples of Thrace and the northern Aegean."
+    },
+    {
+      "id": "edge-of-world",
+      "facet": "allegiance",
+      "label": "Edge of the world",
+      "summary": "Peoples who live by the stream of Oceanus."
+    },
+    {
+      "id": "king",
+      "facet": "role",
+      "label": "King",
+      "summary": "Rulers; in Homer, βασιλεύς and ἄναξ."
+    },
+    {
+      "id": "warrior",
+      "facet": "role",
+      "label": "Warrior",
+      "summary": "Fighters."
+    },
+    {
+      "id": "priest",
+      "facet": "role",
+      "label": "Priest",
+      "summary": "Servants of a god and a sanctuary."
+    },
+    {
+      "id": "seer",
+      "facet": "role",
+      "label": "Seer",
+      "summary": "Interpreters of the gods’ will."
+    },
+    {
+      "id": "herald",
+      "facet": "role",
+      "label": "Herald",
+      "summary": "Messengers under the protection of Zeus."
+    },
+    {
+      "id": "elder",
+      "facet": "role",
+      "label": "Elder",
+      "summary": "The old, and their authority."
+    },
+    {
+      "id": "companion",
+      "facet": "role",
+      "label": "Companion",
+      "summary": "ἑταῖροι: comrades and followers."
+    },
+    {
+      "id": "captive",
+      "facet": "role",
+      "label": "Captive",
+      "summary": "Women and others taken in war."
+    },
+    {
+      "id": "craftsman",
+      "facet": "role",
+      "label": "Craftsman",
+      "summary": "Makers of things."
+    },
+    {
+      "id": "speaker",
+      "facet": "role",
+      "label": "Speaker",
+      "summary": "Characters notable for speech and counsel."
+    },
+    {
+      "id": "woman",
+      "facet": "role",
+      "label": "Women",
+      "summary": "Women and goddesses."
+    },
+    {
+      "id": "mother",
+      "facet": "role",
+      "parent": "woman",
+      "label": "Mother",
+      "summary": "Mothers."
+    },
+    {
+      "id": "cronids",
+      "facet": "family",
+      "label": "Children of Cronus",
+      "summary": "Zeus, Poseidon, Hades, Hera and their sisters."
+    },
+    {
+      "id": "atreidae",
+      "facet": "family",
+      "label": "House of Atreus",
+      "summary": "Agamemnon, Menelaus, and their line."
+    },
+    {
+      "id": "aeacidae",
+      "facet": "family",
+      "label": "House of Aeacus",
+      "summary": "Peleus, Achilles, and the line of Aeacus."
+    },
+    {
+      "id": "house-of-priam",
+      "facet": "family",
+      "label": "House of Priam",
+      "summary": "The royal family of Troy."
+    },
+    {
+      "id": "family-of-chryses",
+      "facet": "family",
+      "label": "Family of Chryses",
+      "summary": "The priest of Apollo and his daughter."
+    },
+    {
+      "id": "troad",
+      "facet": "geography",
+      "label": "Troad",
+      "summary": "Troy and its region in northwest Asia Minor.",
+      "parent": "asia-minor"
+    },
+    {
+      "id": "mainland-greece",
+      "facet": "geography",
+      "label": "Mainland Greece",
+      "summary": "The homelands of the Achaeans."
+    },
+    {
+      "id": "thessaly",
+      "facet": "geography",
+      "parent": "mainland-greece",
+      "label": "Thessaly",
+      "summary": "The north: Phthia, the Lapiths, the Centaurs."
+    },
+    {
+      "id": "peloponnese",
+      "facet": "geography",
+      "parent": "mainland-greece",
+      "label": "Peloponnese",
+      "summary": "Argos, Pylos, Sparta."
+    },
+    {
+      "id": "island",
+      "facet": "geography",
+      "label": "Island",
+      "summary": "Islands of the Aegean."
+    },
+    {
+      "id": "mountain",
+      "facet": "geography",
+      "label": "Mountain",
+      "summary": "Mountains."
+    },
+    {
+      "id": "sanctuary",
+      "facet": "geography",
+      "label": "Sanctuary",
+      "summary": "Holy places and cult sites."
+    },
+    {
+      "id": "city",
+      "facet": "geography",
+      "label": "City",
+      "summary": "Cities and citadels."
+    },
+    {
+      "id": "sea",
+      "facet": "geography",
+      "label": "Sea",
+      "summary": "The sea and its shores."
+    },
+    {
+      "id": "cosmic",
+      "facet": "geography",
+      "label": "Cosmic geography",
+      "summary": "Olympus, Oceanus, Hades: the architecture of the world."
+    },
+    {
+      "id": "camp",
+      "facet": "geography",
+      "label": "The Achaean camp",
+      "summary": "The ships, huts, and shore before Troy."
+    },
+    {
+      "id": "asia-minor",
+      "facet": "geography",
+      "label": "Asia Minor",
+      "summary": "Anatolia: the Troad and the lands of Troy's allies."
+    },
+    {
+      "id": "boeotia",
+      "facet": "geography",
+      "parent": "mainland-greece",
+      "label": "Boeotia",
+      "summary": "Thebes' country: Aulis, Orchomenus, the Boeotian contingent."
+    },
+    {
+      "id": "phocis",
+      "facet": "geography",
+      "parent": "mainland-greece",
+      "label": "Phocis",
+      "summary": "Delphi (Pytho), the Cephisus valley."
+    },
+    {
+      "id": "locris",
+      "facet": "geography",
+      "parent": "mainland-greece",
+      "label": "Locris",
+      "summary": "The Locrians of Ajax son of Oileus, facing Euboea."
+    },
+    {
+      "id": "attica",
+      "facet": "geography",
+      "parent": "mainland-greece",
+      "label": "Attica",
+      "summary": "Athens and Salamis."
+    },
+    {
+      "id": "aetolia",
+      "facet": "geography",
+      "parent": "mainland-greece",
+      "label": "Aetolia",
+      "summary": "Calydon and Pleuron, the land of Oeneus and Meleager."
+    },
+    {
+      "id": "epirus",
+      "facet": "geography",
+      "parent": "mainland-greece",
+      "label": "Epirus",
+      "summary": "Dodona and Thesprotian Ephyra in the northwest."
+    },
+    {
+      "id": "argolid",
+      "facet": "geography",
+      "parent": "peloponnese",
+      "label": "Argolid",
+      "summary": "Argos, Mycenae, Tiryns and their neighbors."
+    },
+    {
+      "id": "corinthia",
+      "facet": "geography",
+      "parent": "peloponnese",
+      "label": "Corinthia",
+      "summary": "Corinth, Cleonae and Sicyon on the isthmus."
+    },
+    {
+      "id": "achaea-coast",
+      "facet": "geography",
+      "parent": "peloponnese",
+      "label": "Achaea",
+      "summary": "The north coast of the Peloponnese (Aegialus, Helice, Aegium)."
+    },
+    {
+      "id": "laconia",
+      "facet": "geography",
+      "parent": "peloponnese",
+      "label": "Laconia",
+      "summary": "Lacedaemon and Sparta, the kingdom of Menelaus."
+    },
+    {
+      "id": "messenia",
+      "facet": "geography",
+      "parent": "peloponnese",
+      "label": "Messenia",
+      "summary": "Pylos and the towns of Nestor."
+    },
+    {
+      "id": "arcadia",
+      "facet": "geography",
+      "parent": "peloponnese",
+      "label": "Arcadia",
+      "summary": "The inland Peloponnese, a people without ships."
+    },
+    {
+      "id": "elis",
+      "facet": "geography",
+      "parent": "peloponnese",
+      "label": "Elis",
+      "summary": "Buprasium and Elis, the land of the Epeians."
+    },
+    {
+      "id": "euboea",
+      "facet": "geography",
+      "parent": "island",
+      "label": "Euboea",
+      "summary": "The Abantes' island: Chalcis, Eretria, Histiaea."
+    },
+    {
+      "id": "ionian-islands",
+      "facet": "geography",
+      "parent": "island",
+      "label": "Ionian islands",
+      "summary": "Ithaca, Samos, Zacynthus, Dulichium and the Echinae."
+    },
+    {
+      "id": "crete",
+      "facet": "geography",
+      "parent": "island",
+      "label": "Crete",
+      "summary": "Crete of the hundred cities."
+    },
+    {
+      "id": "dodecanese",
+      "facet": "geography",
+      "parent": "island",
+      "label": "Dodecanese",
+      "summary": "Rhodes, Cos, Syme and the southeastern islands."
+    },
+    {
+      "id": "thrace",
+      "facet": "geography",
+      "parent": "mainland-greece",
+      "label": "Thrace",
+      "summary": "The Thracians and Cicones of the north Aegean."
+    },
+    {
+      "id": "paeonia",
+      "facet": "geography",
+      "parent": "mainland-greece",
+      "label": "Paeonia",
+      "summary": "The Paeonians of the Axius."
+    },
+    {
+      "id": "paphlagonia",
+      "facet": "geography",
+      "parent": "asia-minor",
+      "label": "Paphlagonia",
+      "summary": "The Paphlagonians and Eneti on the Black Sea coast."
+    },
+    {
+      "id": "mysia-phrygia",
+      "facet": "geography",
+      "parent": "asia-minor",
+      "label": "Mysia and Phrygia",
+      "summary": "The Mysians, the Phrygians of Ascania, the Halizones."
+    },
+    {
+      "id": "maeonia",
+      "facet": "geography",
+      "parent": "asia-minor",
+      "label": "Maeonia",
+      "summary": "Lydia under Tmolus, the Gygaean lake, the Cayster."
+    },
+    {
+      "id": "caria",
+      "facet": "geography",
+      "parent": "asia-minor",
+      "label": "Caria",
+      "summary": "Miletus, the Maeander, Mycale."
+    },
+    {
+      "id": "lycia",
+      "facet": "geography",
+      "parent": "asia-minor",
+      "label": "Lycia",
+      "summary": "Sarpedon's land on the Xanthus."
+    },
+    {
+      "id": "centaur",
+      "facet": "life",
+      "label": "Centaur",
+      "summary": "The wild beast-men of the mountains."
+    },
+    {
+      "id": "hundred-hander",
+      "facet": "life",
+      "label": "Hundred-Hander",
+      "summary": "The monstrous allies of Zeus."
+    },
+    {
+      "id": "sacrificial-animal",
+      "facet": "life",
+      "label": "Sacrificial animal",
+      "summary": "Beasts offered to the gods."
+    },
+    {
+      "id": "livestock",
+      "facet": "life",
+      "label": "Livestock",
+      "summary": "Herds and working animals."
+    },
+    {
+      "id": "wild-animal",
+      "facet": "life",
+      "label": "Wild animal",
+      "summary": "Beasts of the wild."
+    },
+    {
+      "id": "bird",
+      "facet": "life",
+      "label": "Bird",
+      "summary": "Birds, and birds as omens."
+    },
+    {
+      "id": "weapon",
+      "facet": "life",
+      "label": "Weapon",
+      "summary": "Arms and armor."
+    },
+    {
+      "id": "ship",
+      "facet": "life",
+      "label": "Ships & sailing",
+      "summary": "Ships and seamanship."
+    },
+    {
+      "id": "vessel",
+      "facet": "life",
+      "label": "Vessel",
+      "summary": "Cups, bowls, and containers."
+    },
+    {
+      "id": "sacred-object",
+      "facet": "life",
+      "label": "Sacred object",
+      "summary": "Things set apart for the gods."
+    },
+    {
+      "id": "divine-object",
+      "facet": "life",
+      "label": "Divine object",
+      "summary": "Possessions of the gods."
+    },
+    {
+      "id": "body",
+      "facet": "life",
+      "label": "Body",
+      "summary": "Parts of the body and what they mean."
+    },
+    {
+      "id": "sacrifice",
+      "facet": "practice",
+      "label": "Sacrifice",
+      "summary": "Offerings of animals to the gods."
+    },
+    {
+      "id": "prayer",
+      "facet": "practice",
+      "label": "Prayer",
+      "summary": "Speaking to the gods."
+    },
+    {
+      "id": "supplication",
+      "facet": "practice",
+      "label": "Supplication",
+      "summary": "Begging with ritual gestures."
+    },
+    {
+      "id": "oath",
+      "facet": "practice",
+      "label": "Oath",
+      "summary": "Binding words under the gods’ witness."
+    },
+    {
+      "id": "purification",
+      "facet": "practice",
+      "label": "Purification",
+      "summary": "Cleansing pollution."
+    },
+    {
+      "id": "libation",
+      "facet": "practice",
+      "label": "Libation",
+      "summary": "Poured offerings."
+    },
+    {
+      "id": "feast",
+      "facet": "practice",
+      "label": "Feast",
+      "summary": "Shared meals, human and divine."
+    },
+    {
+      "id": "music",
+      "facet": "practice",
+      "label": "Song & music",
+      "summary": "Singing, the lyre, the Muses."
+    },
+    {
+      "id": "divination",
+      "facet": "practice",
+      "label": "Divination",
+      "summary": "Seers, birds, dreams, and signs."
+    },
+    {
+      "id": "exchange",
+      "facet": "practice",
+      "label": "Gifts & ransom",
+      "summary": "Ransom, prizes, spoils, and gifts."
+    },
+    {
+      "id": "assembly",
+      "facet": "practice",
+      "label": "Assembly & counsel",
+      "summary": "Public speech and decision."
+    },
+    {
+      "id": "seafaring",
+      "facet": "practice",
+      "label": "Seafaring",
+      "summary": "Sailing, landing, and launching."
+    },
+    {
+      "id": "warfare",
+      "facet": "practice",
+      "label": "Warfare",
+      "summary": "Raids, ambush, and battle."
+    },
+    {
+      "id": "honor",
+      "facet": "idea",
+      "label": "Honor",
+      "summary": "τιμή, γέρας, κῦδος: worth made visible."
+    },
+    {
+      "id": "anger",
+      "facet": "idea",
+      "label": "Anger",
+      "summary": "μῆνις, χόλος, κότος: the poem’s first subject."
+    },
+    {
+      "id": "fate",
+      "facet": "idea",
+      "label": "Fate & death",
+      "summary": "Portion, doom, mortality."
+    },
+    {
+      "id": "justice",
+      "facet": "idea",
+      "label": "Justice & order",
+      "summary": "θέμις, judgment, what is fitting."
+    },
+    {
+      "id": "kingship",
+      "facet": "idea",
+      "label": "Kingship & authority",
+      "summary": "Who rules, and by what right."
+    },
+    {
+      "id": "mind",
+      "facet": "idea",
+      "label": "Mind & emotion",
+      "summary": "θυμός, φρένες, κῆρ, and the inner life."
+    },
+    {
+      "id": "speech",
+      "facet": "idea",
+      "label": "Speech & persuasion",
+      "summary": "Words, counsel, insult, and obedience."
+    },
+    {
+      "id": "divine-will",
+      "facet": "idea",
+      "label": "Divine will",
+      "summary": "The plans and interventions of the gods."
+    },
+    {
+      "id": "shame",
+      "facet": "idea",
+      "label": "Shame & respect",
+      "summary": "αἰδώς and its absence."
+    },
+    {
+      "id": "time",
+      "facet": "idea",
+      "label": "Time & days",
+      "summary": "Days, generations, and chronology."
+    },
+    {
+      "id": "kinship",
+      "facet": "idea",
+      "label": "Kinship",
+      "summary": "Fathers and sons, mothers, brothers and in-laws: the ties of family and what they demand."
+    },
+    {
+      "id": "divine-epithet",
+      "facet": "language",
+      "label": "Divine epithet",
+      "summary": "Standing descriptions of gods."
+    },
+    {
+      "id": "heroic-epithet",
+      "facet": "language",
+      "label": "Heroic epithet",
+      "summary": "Standing descriptions of mortals and peoples."
+    },
+    {
+      "id": "patronymic",
+      "facet": "language",
+      "label": "Patronymic",
+      "summary": "Names formed from a father’s name."
+    },
+    {
+      "id": "type-scene",
+      "facet": "language",
+      "label": "Type-scene",
+      "summary": "Recurring scenes built from recurring elements."
+    },
+    {
+      "id": "speech-formula",
+      "facet": "language",
+      "label": "Speech formula",
+      "summary": "Lines that introduce and close speeches."
+    },
+    {
+      "id": "insult",
+      "facet": "language",
+      "label": "Insult",
+      "summary": "Abuse and invective."
+    },
+    {
+      "id": "rare-word",
+      "facet": "language",
+      "label": "Rare word",
+      "summary": "Words found rarely or only once in Homer."
+    },
+    {
+      "id": "figure",
+      "facet": "language",
+      "label": "Figure of speech",
+      "summary": "Aposiopesis, ring composition, and other devices."
+    },
+    {
+      "id": "meter",
+      "facet": "language",
+      "label": "Meter",
+      "summary": "The dactylic hexameter and the sound of the verse."
+    },
+    {
+      "id": "digression",
+      "facet": "narrative",
+      "label": "Digression",
+      "summary": "A story within the story."
+    },
+    {
+      "id": "foreshadowing",
+      "facet": "narrative",
+      "label": "Foreshadowing",
+      "summary": "Events predicted or prepared."
+    },
+    {
+      "id": "backstory",
+      "facet": "narrative",
+      "label": "Backstory",
+      "summary": "The past that explains the present."
+    },
+    {
+      "id": "divine-scene",
+      "facet": "narrative",
+      "label": "Divine scene",
+      "summary": "Scenes among the gods."
+    },
+    {
+      "id": "repetition",
+      "facet": "narrative",
+      "label": "Repetition & retelling",
+      "summary": "Events told twice, lines repeated."
+    },
+    {
+      "id": "philosophy",
+      "facet": "reception",
+      "label": "Philosophy",
+      "summary": "Plato, Aristotle, and the critique of Homer."
+    },
+    {
+      "id": "art",
+      "facet": "reception",
+      "label": "Art",
+      "summary": "Sculpture and painting inspired by the poem."
+    },
+    {
+      "id": "scholarship",
+      "facet": "reception",
+      "label": "Ancient scholarship",
+      "summary": "The Alexandrian editors and the scholia."
+    },
+    {
+      "id": "allegory",
+      "facet": "reception",
+      "label": "Allegory",
+      "summary": "Readings of Homer as hidden physics or ethics."
+    },
+    {
+      "id": "rhetoric",
+      "facet": "reception",
+      "label": "Rhetoric",
+      "summary": "Homer as a model and quarry for orators."
+    }
+  ]
+}

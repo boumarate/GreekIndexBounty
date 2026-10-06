@@ -1,0 +1,265 @@
+{
+  "ages": [
+    {
+      "id": "divine",
+      "label": "The Divine Ages",
+      "summary": "From the first powers to the settled rule of Zeus."
+    },
+    {
+      "id": "heroic",
+      "label": "The Heroic Generations",
+      "summary": "The deeds of the generations before Troy, roughly from the oldest to the youngest."
+    },
+    {
+      "id": "troy",
+      "label": "The Trojan War",
+      "summary": "The war as the Epic Cycle told it, poem by poem."
+    },
+    {
+      "id": "after",
+      "label": "After Troy",
+      "summary": "Homecomings, wanderings, and endings."
+    },
+    {
+      "id": "timeless",
+      "label": "Outside Time",
+      "summary": "The standing order of gods and world: things that always are, rather than things that happened once."
+    }
+  ],
+  "periods": [
+    {
+      "id": "primordial",
+      "age": "divine",
+      "label": "Primordial",
+      "aka": "Genesis",
+      "greek": "Γένεσις",
+      "summary": "The first powers: Chaos, Earth, Sky and Night; Oceanus and Tethys, whom Homer calls the origin of the gods.",
+      "sources": "Hesiod, Theogony 116–210; Iliad 14.200–210, 14.246"
+    },
+    {
+      "id": "titanomachy",
+      "age": "divine",
+      "label": "Titanomachy",
+      "greek": "Τιτανομαχία",
+      "summary": "The reign and fall of Cronus; the war of the Olympians against the Titans; Zeus, Poseidon and Hades divide the world by lot.",
+      "sources": "Hesiod, Theogony 453–735; Iliad 8.478–481, 14.203–204, 15.187–193"
+    },
+    {
+      "id": "theomachy",
+      "age": "divine",
+      "label": "Theomachy",
+      "aka": "Quarrels of the Gods",
+      "greek": "Θεομαχία",
+      "summary": "Strife inside the new Olympian order: the plot to bind Zeus, Hephaestus hurled from heaven, Hera hung from the sky.",
+      "sources": "Iliad 1.396–406, 1.590–594, 15.18–30, 18.395–405"
+    },
+    {
+      "id": "gigantomachy",
+      "age": "divine",
+      "label": "Gigantomachy",
+      "greek": "Γιγαντομαχία",
+      "summary": "Challengers to Zeus: the Giants, Typhon, and the Aloadae who piled Ossa on Olympus.",
+      "sources": "Hesiod, Theogony 820–880; Odyssey 7.56–60, 11.305–320; Apollodorus 1.6–7"
+    },
+    {
+      "id": "first-kings",
+      "age": "heroic",
+      "label": "The First Kings",
+      "greek": "Οἱ πρῶτοι βασιλῆες",
+      "summary": "The founders of the oldest royal houses: Erechtheus of Athens, born of the earth and raised by Athena, and Dardanus, son of Zeus, founder of the line of Troy.",
+      "sources": "Iliad 2.546–551, 20.215–240"
+    },
+    {
+      "id": "perseus",
+      "age": "heroic",
+      "label": "Perseus",
+      "greek": "Περσεύς",
+      "summary": "Danae, the Gorgon, and Andromeda: the earliest great hero of Argos.",
+      "sources": "Iliad 14.319–320; Hesiod, Shield 216–237; Apollodorus 2.4"
+    },
+    {
+      "id": "pelops",
+      "age": "heroic",
+      "label": "Pelops and His Sons",
+      "greek": "Πελοπίδαι",
+      "summary": "Pelops, driver of horses, and his sons Atreus and Thyestes, through whose hands the scepter made by Hephaestus came down to Agamemnon.",
+      "sources": "Iliad 2.100–108"
+    },
+    {
+      "id": "bellerophon",
+      "age": "heroic",
+      "label": "Bellerophon",
+      "greek": "Βελλεροφόντης",
+      "summary": "The hero of Corinth and Lycia who killed the Chimaera.",
+      "sources": "Iliad 6.152–211"
+    },
+    {
+      "id": "heracles",
+      "age": "heroic",
+      "label": "Heracles",
+      "greek": "Ἡρακλῆς",
+      "summary": "His birth and labors, the first sack of Troy, and the war on Pylos.",
+      "sources": "Iliad 5.638–651, 11.690–693, 19.95–133; Odyssey 11.601–626"
+    },
+    {
+      "id": "argonauts",
+      "age": "heroic",
+      "label": "Jason & the Argonauts",
+      "greek": "Ἀργοναῦται",
+      "summary": "The voyage of the Argo for the Golden Fleece.",
+      "sources": "Iliad 7.467–469; Odyssey 12.69–72; Apollonius, Argonautica"
+    },
+    {
+      "id": "theseus",
+      "age": "heroic",
+      "label": "Theseus & Crete",
+      "greek": "Θησεύς",
+      "summary": "Minos, the Minotaur, Ariadne, and the hero of Athens.",
+      "sources": "Iliad 1.265, 18.590–592; Odyssey 11.321–325, 11.631"
+    },
+    {
+      "id": "centauromachy",
+      "age": "heroic",
+      "label": "Lapiths & Centaurs",
+      "greek": "Κενταυρομαχία",
+      "summary": "The Lapiths of Thessaly against the wild Centaurs, in the days of Nestor’s youth.",
+      "sources": "Iliad 1.262–273, 2.740–744; Odyssey 21.295–304"
+    },
+    {
+      "id": "calydon",
+      "age": "heroic",
+      "label": "The Calydonian Boar",
+      "greek": "Καλυδών",
+      "summary": "Meleager, the boar sent by Artemis, and the war of the Curetes and Aetolians.",
+      "sources": "Iliad 9.529–599"
+    },
+    {
+      "id": "thebes",
+      "age": "heroic",
+      "label": "The Theban Wars",
+      "greek": "Θῆβαι",
+      "summary": "Oedipus, the Seven against Thebes, and the Epigoni.",
+      "sources": "Iliad 4.370–410; Odyssey 11.271–280"
+    },
+    {
+      "id": "nestor",
+      "age": "heroic",
+      "label": "Nestor’s Youth",
+      "greek": "Νέστωρ",
+      "summary": "The wars of Pylos: Nestor’s cattle raid, the Epeians, Ereuthalion.",
+      "sources": "Iliad 7.132–157, 11.670–761, 23.629–642"
+    },
+    {
+      "id": "before-troy",
+      "age": "heroic",
+      "label": "Before Troy",
+      "greek": "Πρὸ Τροίας",
+      "summary": "The generation of the war is born and raised: Peleus weds Thetis, Achilles grows up in Phthia, the earlier kings of Troy.",
+      "sources": "Iliad 9.438–495, 18.84–87, 20.215–240, 24.59–63"
+    },
+    {
+      "id": "cypria",
+      "age": "troy",
+      "label": "Cypria",
+      "greek": "Κύπρια",
+      "summary": "The Plan of Zeus, the Judgment of Paris, Helen’s abduction, the gathering at Aulis, and nine years of war and raiding.",
+      "sources": "Proclus, Chrestomathy; Cypria fragments"
+    },
+    {
+      "id": "iliad",
+      "age": "troy",
+      "label": "Iliad",
+      "greek": "Ἰλιάς",
+      "summary": "The wrath of Achilles, in the tenth year of the war.",
+      "sources": "Homer, Iliad"
+    },
+    {
+      "id": "aethiopis",
+      "age": "troy",
+      "label": "Aethiopis",
+      "greek": "Αἰθιοπίς",
+      "summary": "Penthesilea and Memnon come to Troy’s aid; the death of Achilles.",
+      "sources": "Proclus, Chrestomathy; Odyssey 24.36–94"
+    },
+    {
+      "id": "little-iliad",
+      "age": "troy",
+      "label": "Little Iliad",
+      "greek": "Ἰλιὰς μικρά",
+      "summary": "The Judgment of Arms, the madness of Ajax, Philoctetes, Neoptolemus, and the Wooden Horse.",
+      "sources": "Proclus, Chrestomathy; Odyssey 11.543–564"
+    },
+    {
+      "id": "iliupersis",
+      "age": "troy",
+      "label": "Iliupersis",
+      "greek": "Ἰλίου πέρσις",
+      "summary": "The sack of Troy.",
+      "sources": "Proclus, Chrestomathy; Odyssey 8.499–520"
+    },
+    {
+      "id": "nostoi",
+      "age": "after",
+      "label": "Nostoi",
+      "greek": "Νόστοι",
+      "summary": "The returns of the Achaeans: storms, shipwrecks, and Agamemnon’s murder.",
+      "sources": "Proclus, Chrestomathy; Odyssey 3–4, 11.405–434"
+    },
+    {
+      "id": "odyssey",
+      "age": "after",
+      "label": "Odyssey",
+      "greek": "Ὀδύσσεια",
+      "summary": "The wanderings and homecoming of Odysseus.",
+      "sources": "Homer, Odyssey"
+    },
+    {
+      "id": "telegony",
+      "age": "after",
+      "label": "Telegony",
+      "greek": "Τηλεγονία",
+      "summary": "Odysseus’ last journeys and his death at the hands of Telegonus, his son by Circe.",
+      "sources": "Proclus, Chrestomathy"
+    },
+    {
+      "id": "timeless",
+      "age": "timeless",
+      "label": "The Divine Order",
+      "greek": "Κόσμος",
+      "summary": "How the gods live and how the world is arranged: Olympus, Oceanus, the Ethiopians, the gods’ houses and feasts.",
+      "sources": "Throughout Homer"
+    }
+  ],
+  "modes": [
+    {
+      "id": "narrated",
+      "label": "Narrated",
+      "summary": "Told by the poet as part of the action."
+    },
+    {
+      "id": "told",
+      "label": "Told by a character",
+      "summary": "A character tells the story at length."
+    },
+    {
+      "id": "allusion",
+      "label": "Allusion",
+      "summary": "Mentioned in passing; the audience is expected to know the rest."
+    },
+    {
+      "id": "foreshadowing",
+      "label": "Foreshadowing",
+      "summary": "A future event predicted, prayed for, or feared."
+    },
+    {
+      "id": "genealogy",
+      "label": "Genealogy",
+      "summary": "Parentage or descent."
+    },
+    {
+      "id": "backstory",
+      "label": "Backstory",
+      "summary": "Earlier events that explain the present situation."
+    }
+  ]
+}

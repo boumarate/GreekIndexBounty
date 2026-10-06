@@ -1,0 +1,44 @@
+{
+  "id": "homer.iliad",
+  "author": "homer",
+  "title": "Iliad",
+  "greek": "Ἰλιάς",
+  "aliases": [
+    "iliad",
+    "il",
+    "il."
+  ],
+  "genre": "Epic",
+  "meter": "Dactylic hexameter",
+  "date": "c. 750–700 BCE (traditional)",
+  "summary": "Twenty-four books on a few weeks in the tenth year of the Trojan War: the wrath of Achilles, its cost to Greeks and Trojans, and its end.",
+  "citation": {
+    "scheme": "book.line",
+    "book": "Book",
+    "unit": "line",
+    "abbr": "Il."
+  },
+  "display": "verse",
+  "bookCount": 24,
+  "books": {},
+  "editions": [
+    {
+      "id": "grc",
+      "lang": "grc",
+      "label": "Greek",
+      "name": "Monro & Allen",
+      "credit": "Planned base: D. B. Monro and T. W. Allen, Homeri Opera, via the Perseus Digital Library. No Greek text imported yet. Edition-specific attribution, rights, and any indirect witnesses must be recorded on import.",
+      "path": "grc/{book}.txt"
+    },
+    {
+      "id": "en",
+      "lang": "en",
+      "label": "English",
+      "name": "Contributor translation",
+      "credit": "No translation submitted. Authorship and sources will be recorded with each accepted book.",
+      "path": "en/{book}.txt"
+    }
+  ],
+  "structure": "structure/{book}.json",
+  "lexicon": "lexicon/{book}.json"
+}
